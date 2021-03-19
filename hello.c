@@ -4,8 +4,8 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-// hello!
 int main(int argc, char *argv[]) {
+
     int num;
     sscanf(argv[1], "%d", &num);
     printf("words: %d, file: %s\n", num, argv[2]);
